@@ -1,0 +1,227 @@
+@import url("https://fonts.google.com/specimen/Karla");
+@import url("https://fonts.google.com/specimen/DM+Serif+Display");
+
+h1{
+    /*Family: [DM Serif Display]*/
+    font-family: DM Serif Display;
+    font-weight: 800;
+    font-size: 60px;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 400,700;
+    Font-size: 16px;
+}
+header{
+    position: relative;
+    z-index: 99999;
+}
+h3{
+    margin-top: 20px;
+    font-weight: 700;
+}
+.container{
+    margin-left: 130px;
+}
+
+#headerTable{
+    padding-top: 30px;
+    width: 100%;
+    background-color: white;
+    height: 10vh;
+}
+.navbar{
+    margin-left: 450px;
+}
+.navbar ul{
+    padding: auto auto;
+    margin: auto auto;
+    list-style: none;
+    display: flex;
+}
+.navbar li a{
+    text-decoration: none;
+    margin-right:15px;
+    color: hsl(273, 4%, 51%);
+}
+.navbar li a:hover{
+    color: hsl(256, 26%, 20%);
+}
+.view_plans {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #292633;
+    font-size: 13px;
+    background: #ffffff;
+    margin-right: 40px;
+    padding: 8px 30px 8px 30px;
+    border: 2px solid  hsl(256, 26%, 25%);
+    text-decoration: none;
+}
+.view_plans:hover {
+    background: #292633;
+    color: white;
+    text-decoration: none;
+}
+#menu{
+    height: 75vh;
+    background-color: hsl(256, 26%, 20%);
+}
+hr.horizontal{
+    width:20%;
+    text-align:left;
+    margin: 65px 0px 30px 0px;
+    border: 1px  solid  hsl(0, 0%, 98%);
+}
+.intro{
+    color:hsl(0, 0%, 98%);
+    top: 20%;
+}
+.view_plans1 {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    color: #ffffff;
+    background: #292633;
+    padding: 8px 25px 8px 25px;
+    border: 2px solid  hsl(0, 0%, 98%);
+    text-decoration: none;
+} 
+.view_plans1:hover {
+    background: #ffffff;
+    color: hsl(256, 26%, 20%);
+    text-decoration: none; 
+}
+#intro-pic{
+    position: absolute;
+    right :10%;
+    top: 22%;
+    width: 40%;
+    height: 86%;
+    text-align: right;
+}
+#intro-left{
+    position: absolute;
+    top: 62%;
+    left: 0;
+}
+#intro-right{
+    position: absolute;
+    right: 0;
+    top: 66px;
+    overflow: hidden;
+    z-index: 100;
+}
+hr.horizontal1{
+    width:80px;
+    text-align:left;
+    margin: 25% 0px 30px 0px ;
+    border: 1px  solid  hsl(216, 30%, 68%);
+}
+
+.menu-different{
+    border-collapse: separate;
+    border-spacing: 50px 0px;
+    margin-left: -50px;
+}
+.menu-different p{
+    font-size: 16px;
+    color:  hsl(273, 4%, 51%);
+}
+.card{
+    width: 95%;
+    margin-top: 10%;
+    background-color: hsl(256, 26%, 20%);
+    height: 30vh;
+}
+.how_we_work{
+    color: hsl(0, 0%, 98%);
+}
+.card-body{
+    margin-left: 5%;
+}
+.card-body img{
+    float: right;
+}
+.how_work{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    position: absolute;
+    border-radius: 0px;
+    color: #ffffff;
+    background:  hsla(256, 25%, 20%, 0.534);
+    padding: 5px 15px 5px 15px;
+    border: 1px solid  hsl(273, 4%, 51%) ;
+    text-decoration: none;
+    font-size: 14px;
+    right: 6%;
+    top: 42%;
+}
+.how_work:hover {
+    background: #ffffff;
+    color: hsl(256, 26%, 20%);
+    text-decoration: none; 
+}
+footer{
+    margin-top: 5%;
+    background-color: hsl(0, 0%, 98%);
+}
+#tableFooter{
+    width: 95%;
+}
+#tableFooter a{
+    margin-left: 20px;
+}
+#tableFooter .fa{
+    padding-top: 50px;
+    margin-right: 20px;
+    float: right;
+    
+    color: hsl(273, 4%, 51%);
+    cursor: pointer;
+}
+.fa a img:hover {
+    fill: #153375;
+    background-color: hsl(256, 26%, 20%);
+}
+
+hr.horizontal2{
+    width: 95%;
+    margin-left: 0px;
+    margin-top: 18px;
+    text-align:left;
+    border-style:  solid  hsl(216, 30%, 68%);
+}
+#footer-desktop{
+    position: absolute;
+    top: inherit;
+    left: 0;
+}
+#footerMenu{
+    margin-top: 40px;
+    color: hsl(273, 4%, 51%);
+}
+#footerMenu ul{
+    padding-left: 0;
+    margin-top: 20px;
+    list-style: none;  
+    line-height:30px; 
+}
+#footerMenu li a{
+    color: hsl(256, 26%, 20%);
+    margin-right: 150px;
+}
+#footerMenu  li a:hover{
+    text-decoration: underline;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
