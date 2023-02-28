@@ -80,7 +80,8 @@ window.onload = function() {
 
 
     //Footer
-    let footer_desktop = "<img height='200' src='./assets/images/bg-pattern-footer-desktop.svg'/>"
+    let footer_desktopImg = './assets/images/bg-pattern-footer-desktop.svg';
+    let footer_desktop = "<img height='200' src="+footer_desktopImg +" alt='icon-twitter'/>"
 
     let tableFooter = "<tr><td class='logo'><h2 style='margin-top: 40px;'><h2><img src='/assets/images/logo.svg' alt=''></h2></h2></td>"
         tableFooter += "<td align='right' class='fa' ><a href='#'><img src='./assets/images/icon-facebook.svg' alt='icon-facebook'></a>"
